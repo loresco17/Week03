@@ -1,3 +1,4 @@
+
 class Corso:
     def __init__(self, codice, titolo, docente):
         self.codice = codice

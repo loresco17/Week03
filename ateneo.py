@@ -1,3 +1,5 @@
+# Per utilizzare classi definite in altri file/moduli devo prima importarle
+
 from studente import Studente
 from corso import Corso
 
@@ -11,6 +13,7 @@ def main():
 
     # Posso memorizzare più studenti in una lista o altra struttura dati
     lista_studenti=[s1]
+    lista_studenti = [s1]
     lista_studenti.append(s2)
 
     # Posso creare oggetti di altri tipi, es. Corso
